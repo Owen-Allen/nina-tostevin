@@ -3,12 +3,12 @@ import Head from 'next/head';
 import { Sour_Gummy } from 'next/font/google';
 
 import Header from '@/components/header';
+import ImageZoom from '@/components/imageZoom';
 
-// // Import Montserrat font
 const gummy = Sour_Gummy({
     subsets: ['latin'],
-    weight: ['400'], // Adjust weights as needed
-    variable: '--font-montserrat', // Optional: Custom CSS variable for the font
+    weight: ['400'],
+    variable: '--font-gummy',
 });
 
 export default function Sketchbook() {
@@ -29,46 +29,46 @@ export default function Sketchbook() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-3/4 py-12">
                     <div className="grid gap-4">
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt="" /></ImageZoom>
                         </div>
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC026.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC026.TIFF" alt="" /></ImageZoom>
                         </div>
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC031.TIFF" alt=""/>
-                        </div>
-                    </div>
-                    <div className="grid gap-4">
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC032.TIFF" alt=""/>
-                        </div>
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC033.TIFF" alt=""/>
-                        </div>
-                        <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC038.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC031.TIFF" alt="" /></ImageZoom>
                         </div>
                     </div>
                     <div className="grid gap-4">
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC041.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC032.TIFF" alt="" /></ImageZoom>
                         </div>
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC043.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC033.TIFF" alt="" /></ImageZoom>
                         </div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC044.TIFF" alt=""/>
+                        <div>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC038.TIFF" alt="" /></ImageZoom>
+                        </div>
+                    </div>
+                    <div className="grid gap-4">
+                        <div>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC041.TIFF" alt="" /></ImageZoom>
+                        </div>
+                        <div>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC043.TIFF" alt="" /></ImageZoom>
+                        </div>
+                        <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC044.TIFF" alt="" /></ImageZoom>
                         <div>
                         </div>
                     </div>
                     <div className="grid gap-4">
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt="" /></ImageZoom>
                         </div>
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt="" /></ImageZoom>
                         </div>
                         <div>
-                            <img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt=""/>
+                            <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt="" /></ImageZoom>
                         </div>
                     </div>
                 </div>

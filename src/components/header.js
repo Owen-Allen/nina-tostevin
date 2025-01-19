@@ -1,10 +1,9 @@
-
 import { Montserrat, font, Knewave, Sour_Gummy } from 'next/font/google';
 
 const gummy = Sour_Gummy({
     subsets: ['latin'],
-    weight: ['400'], // Adjust weights as needed
-    variable: '--font-montserrat', // Optional: Custom CSS variable for the font
+    weight: ['400'],
+    variable: '--font-gummy',
 });
 
 export default function Header() {
