@@ -26,7 +26,7 @@ export default function Sketchbook() {
             {/* Main Content */}
             <main className="flex items-start justify-center min-h-[75vh] md:items-center sm:items-center sm:pt-0">
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-3/4 py-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-5/6 sm:w-3/4 py-12">
                     <div className="grid gap-4">
                         <div>
                             <ImageZoom><img className="h-auto max-w-full rounded-lg" src="/sketchbook/DOC025.TIFF" alt="" /></ImageZoom>

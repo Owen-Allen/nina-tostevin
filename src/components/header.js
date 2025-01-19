@@ -11,7 +11,7 @@ export default function Header() {
         <header className="sm:mx-0 mx-4">
             <nav className="container mx-auto py-4 flex justify-between items-center">
                 <a href="/" className={`${gummy.className} whitespace-nowrap tracking-wide text-4xl sm:text-7xl text-black`}>Nina Tostevin</a>
-                <ul className={`flex flex-col  sm:mt-8 space-y-4 text-lg ${gummy.className}`}>
+                <ul className={`flex flex-col sm:mt-8 space-y-4 text-lg ${gummy.className}`}>
                     <li>
                         <a href="/" className="text-gray-700 text-lg hover:text-red-800">Home</a>
                     </li>
