@@ -25,7 +25,7 @@ export default function Works() {
                         alt="Main Visual"
                         className={`rounded-lg shadow-2xl w-3/4`}
                     />
-                    <a href="/sketchbook" className={`text-black ${gummy.className}`}>sketchbook</a>
+                    <a href="/works/sketchbook" className={`text-black ${gummy.className}`}>sketchbook</a>
                 </div>
                 <div className="flex flex-col space-y-4 items-center">
                     <img
@@ -34,7 +34,7 @@ export default function Works() {
                         alt="Main Visual"
                         className={`rounded-lg shadow-2xl w-3/4`}
                     />
-                    <a href="/colour" className={`text-black ${gummy.className}`}>colour</a>
+                    <a href="/works/colour" className={`text-black ${gummy.className}`}>colour</a>
                 </div>
                 <div className="flex flex-col space-y-4 items-center">
                     <img
@@ -43,7 +43,7 @@ export default function Works() {
                         alt="Main Visual"
                         className={`rounded-lg shadow-2xl w-3/4`}
                     />
-                    <a href="/stories" className={`text-black ${gummy.className}`}>stories</a>
+                    <a href="/works/stories" className={`text-black ${gummy.className}`}>stories</a>
                 </div>
             </main>
         </div>

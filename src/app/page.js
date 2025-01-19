@@ -1,8 +1,10 @@
+'use client'
 import Head from 'next/head';
 
 import { Sour_Gummy } from 'next/font/google';
 
 import Header from '../components/header';
+import ImageZoom from '../components/imageZoom'
 
 // // Import Montserrat font
 const gummy = Sour_Gummy({
@@ -13,6 +15,7 @@ const gummy = Sour_Gummy({
 
 export default function Home() {
   return (
+    <div className="h-full bg-neutral-100">
     <div className={`min-h-screen bg-neutral-100`}>
       <Head>
         <title>Basic Homepage</title>
@@ -21,18 +24,19 @@ export default function Home() {
       </Head>
 
       {/* Navbar */}
-      <Header/>
+      <Header />
 
       {/* Main Content */}
-      <main className="flex items-start justify-center min-h-[75vh] md:items-center sm:items-center sm:pt-0 pt-32">
-        <img
-          // src="/jazzy.png"
-          src="baller.png"
-          alt="Main Visual"
-          className="rounded-lg shadow-2xl sm:w-1/3 w-2/3"
-        />
+      <main className="flex items-start justify-center min-h-[75vh] sm:items-center sm:pt-0 pt-32">
+        <ImageZoom className="lg:w-1/3 w-2/3 flex flex-col justify-center items-center">
+          <img
+            src="baller.png"
+            alt="Main Visual"
+            className="rounded-lg shadow-2xl"
+          />
+        </ImageZoom>
       </main>
-
+    </div>
     </div>
   );
 }

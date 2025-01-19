@@ -12,18 +12,18 @@ export default function Header() {
         <header className="sm:mx-0 mx-4">
             <nav className="container mx-auto py-4 flex justify-between items-center">
                 <a href="/" className={`${gummy.className} whitespace-nowrap tracking-wide text-4xl sm:text-7xl text-black`}>Nina Tostevin</a>
-                <ul className={`flex flex-col space-y-4 text-lg ${gummy.className}`}>
+                <ul className={`flex flex-col  sm:mt-8 space-y-4 text-lg ${gummy.className}`}>
                     <li>
-                        <a href="/" className="text-gray-700 hover:text-red-800">Home</a>
+                        <a href="/" className="text-gray-700 text-lg hover:text-red-800">Home</a>
                     </li>
                     <li>
-                        <a href="/works" className="text-gray-700 hover:text-red-800">Works</a>
+                        <a href="/works" className="text-gray-700 text-lg hover:text-red-800">Works</a>
                     </li>
                     <li>
-                        <a href="/about" className="text-gray-700 hover:text-red-800">About</a>
+                        <a href="/about" className="text-gray-700 text-lg hover:text-red-800">About</a>
                     </li>
                     <li>
-                        <a href="mailto:nina.tost@icloud.com" className="whitespace-nowrap text-gray-700 hover:text-red-800">Email me!</a>
+                        <a href="mailto:nina.tost@icloud.com" className="whitespace-nowrap text-gray-700 text-lg hover:text-red-800">Email me!</a>
                     </li>
                 </ul>
             </nav>
